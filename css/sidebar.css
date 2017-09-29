@@ -1,0 +1,44 @@
+.fixed-sidebar{
+	position:fixed;
+	left:0;
+	top:250px;
+	width:20%;
+}
+
+.catalog{
+	font-size: 24px;
+}
+
+.catalog li{
+	padding:16px 10px 16px 60px;
+	list-style-type: none;
+	--webkit-box-shadow: -16px 17px 0px -16px rgba(208,208,208,1);
+	-moz-box-shadow: -16px 17px 0px -16px rgba(208,208,208,1);
+	box-shadow: -16px 17px 0px -16px rgba(208,208,208,1);
+	cursor:pointer;
+	transition: 0.2s;
+}
+
+.catalog li:hover{
+	background: #c34343;
+	color:white;
+}
+
+.catalog li:hover img{
+	-moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+    filter: invert(1);
+}
+
+.catalog img{
+	float: right;
+	padding:16px 0 16px;
+	transition: 0.5s;
+}
+
+.catalog .no-padding img{
+	padding:0 !important;
+}
