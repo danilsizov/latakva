@@ -1,0 +1,39 @@
+.product img{
+	display:block; 
+	margin:0 auto;
+	padding:10px;
+}
+
+.product{
+	cursor:pointer;
+}
+
+.product:hover{
+	-webkit-box-shadow: 0px 0px 0px 2px rgba(195,67,67,1);
+	-moz-box-shadow: 0px 0px 0px 2px rgba(195,67,67,1);
+	box-shadow: 0px 0px 0px 2px rgba(195,67,67,1);
+}
+
+.pr-tittle h2{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	color:#2c2c2c;
+}
+
+.pr-description h4{
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color:#2c2c2c;
+	padding-bottom: 20px;
+}
+
+.pr-con{
+	margin-top: 50px;
+}
+
+.pr-row{
+	margin-top:50px;
+}

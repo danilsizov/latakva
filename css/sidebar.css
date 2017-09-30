@@ -2,7 +2,7 @@
 	position:fixed;
 	left:0;
 	top:250px;
-	width:20%;
+	width:22%;
 }
 
 .catalog{
@@ -10,13 +10,14 @@
 }
 
 .catalog li{
-	padding:16px 10px 16px 60px;
+	padding:16px 15px 16px 60px;
 	list-style-type: none;
 	--webkit-box-shadow: -16px 17px 0px -16px rgba(208,208,208,1);
 	-moz-box-shadow: -16px 17px 0px -16px rgba(208,208,208,1);
 	box-shadow: -16px 17px 0px -16px rgba(208,208,208,1);
 	cursor:pointer;
 	transition: 0.2s;
+	color:#2c2c2c;
 }
 
 .catalog li:hover{
