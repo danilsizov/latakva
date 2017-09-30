@@ -1,5 +1,5 @@
 .fixed-sidebar{
-	position:fixed;
+	position:absolute;
 	left:0;
 	top:250px;
 	width:22%;
@@ -10,7 +10,7 @@
 }
 
 .active-sb{
-	background: #c34343;
+	background: #cc3333;
 	color:white !important;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .catalog li:hover{
-	background: #c34343;
+	background: #cc3333;
 	color:white;
 }
 

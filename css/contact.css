@@ -1,0 +1,43 @@
+.red-cont{
+	width:46.35%;
+	padding-top:75px;
+	padding-bottom:85px;
+	background:#cc3333;
+	color:white;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	height:430px;
+}
+
+.map-cont{
+	width:53.65%;
+	height:430px;
+}
+
+.cont-content{
+	margin-left:56.17%;
+}
+
+.cont-content p{
+	margin-top:10px;
+}
+
+.fir-p{
+	margin-top:30px !important;
+}
+
+.tel{
+	margin-left:25px;
+}
+
+.mail{
+	margin-left:17px;
+}
+
+.geo{
+	margin-left:29px;
+}
+
+.contact .row{
+	margin:200px 0 0 0 !important;
+}

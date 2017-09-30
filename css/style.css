@@ -6,3 +6,35 @@ body{
 ul{
 	padding:0;
 }
+
+.mar-top-25{
+	margin-top:25px;
+}
+
+.mar-top-75{
+	margin-top:75px;
+}
+
+.mar-top-40{
+	margin-top:40px;
+}
+
+.wrapper{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	flex-wrap:nowrap;
+}
+
+.redline{
+	width:50%;
+	height:4px;
+	background:red;
+}
+
+.title-line{
+	font-size: 32px;
+	color:#2c2c2c;
+	padding:0 20px 0 20px;
+}
