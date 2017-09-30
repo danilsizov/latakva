@@ -9,6 +9,20 @@
 	font-size: 24px;
 }
 
+.active-sb{
+	background: #c34343;
+	color:white !important;
+}
+
+.active-sb img{
+	-moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+    filter: invert(1);
+}
+
 .catalog li{
 	padding:16px 15px 16px 60px;
 	list-style-type: none;
