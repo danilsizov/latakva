@@ -3,6 +3,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main-page.css">
 	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/mobile-header.css">
 	<link rel="stylesheet" href="css/product.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/main-part.css">
@@ -15,38 +16,64 @@
 </head>
 <body>
 <!-- Header -->
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-	  	<div class="collapse navbar-collapse navbar-text" id="navbarText">
-		    <ul class="navbar-nav mr-auto">
-			    <a class="navbar-brand" href="#">
-		  			<img src="img/logo.png" alt="">
-		  		</a>
-		    </ul>
-		    <div class="container navbar-text header-text">
-		    	<div class="row">
-		    		<div class="col-lg-10">
-		    		</div>
-		    		<div class="col-lg-2">
-		    		<ul class="nav justify-content-end">
+	<div class="full-header">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  	<div class="collapse navbar-collapse navbar-text" id="navbarText">
+			    <ul class="navbar-nav mr-auto">
+				    <a class="navbar-brand" href="#">
+			  			<img src="img/logo.png" alt="">
+			  		</a>
+			    </ul>
+			    <div class="container navbar-text header-text">
+			    	<div class="row">
+			    		<div class="col-lg-8">
+			    		</div>
+			    		<div class="col-lg-2">
+			    		<ul class="nav justify-content-end">
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="index.html"><strong>Главная</strong></a>
+					      	</li>
+					      	<li class="nav-item active">
+					        	<a class="nav-link" href="about_product.html">Продукция</a>
+					      	</li>
+				    	</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <span class="navbar-text phone-text">
+			      	<ul class="nav justify-content-end">
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="#"><strong>Главная</strong></a>
-				      	</li>
-				      	<li class="nav-item active">
-				        	<a class="nav-link" href="#">Продукция</a>
+				        	<a class="nav-link" href="#"><img src="img/telephone.png" alt="" tittle=""> +38(099)-143-23-27</a>
 				      	</li>
 			    	</ul>
-		    		</div>
-		    	</div>
-		    </div>
-		    <span class="navbar-text phone-text">
-		      	<ul class="nav justify-content-end">
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#"><img src="img/telephone.png" alt="" tittle=""> +38(099)-143-23-27</a>
-			      	</li>
-		    	</ul>
-		    </span>
-	  	</div>
-	</nav>
+			    </span>
+		  	</div>
+		</nav>
+	</div>
+
+	<div class="mobile-header">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  	<div class="navbar-text" id="navbarText">
+			    <div class="container navbar-text header-text">
+		    		<ul class="nav" style="float:left">
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="index.html"><strong>Главная</strong></a>
+				      	</li>
+				      	<li class="nav-item active">
+				        	<a class="nav-link" href="about_product.html">Продукция</a>
+				      	</li>
+			    	</ul>
+			    	<span class="phone-text" style="float:right">
+				      	<ul class="nav">
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="#"><img src="img/telephone.png" alt="" tittle=""> +38(099)-143-23-27</a>
+					      	</li>
+				    	</ul>
+				    </span>			    		
+			    </div>
+		  	</div>
+		</nav>
+	</div>
 <!-- Header -->
 
 	<div class="main-screen">

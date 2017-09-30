@@ -1,50 +1,81 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main-page.css">
 	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="css/mobile-header.css">
+	<link rel="stylesheet" href="css/product.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/main-part.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/sidebar.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 </head>
 <body>
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-	  	<div class="collapse navbar-collapse navbar-text" id="navbarText">
-		    <ul class="navbar-nav mr-auto">
-			    <a class="navbar-brand" href="#">
-		  			<img src="img/logo.png" alt="">
-		  		</a>
-		    </ul>
-		    <div class="container navbar-text header-text">
-		    	<div class="row">
-		    		<div class="col-lg-10">
-		    		</div>
-		    		<div class="col-lg-2">
-		    		<ul class="nav justify-content-end">
+<!-- Header -->
+	<div class="full-header">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  	<div class="collapse navbar-collapse navbar-text" id="navbarText">
+			    <ul class="navbar-nav mr-auto">
+				    <a class="navbar-brand" href="#">
+			  			<img src="img/logo.png" alt="">
+			  		</a>
+			    </ul>
+			    <div class="container navbar-text header-text">
+			    	<div class="row">
+			    		<div class="col-lg-8">
+			    		</div>
+			    		<div class="col-lg-2">
+			    		<ul class="nav justify-content-end">
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="index.html">Главная</a>
+					      	</li>
+					      	<li class="nav-item active">
+					        	<a class="nav-link" href="about_product.html"><strong>Продукция</strong></a>
+					      	</li>
+				    	</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <span class="navbar-text phone-text">
+			      	<ul class="nav justify-content-end">
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="#">Главная</a>
-				      	</li>
-				      	<li class="nav-item active">
-				        	<a class="nav-link" href="#"><strong>Продукция</strong></a>
+				        	<a class="nav-link" href="#"><img src="img/telephone.png" alt="" tittle=""> +38(099)-143-23-27</a>
 				      	</li>
 			    	</ul>
-		    		</div>
-		    	</div>
-		    </div>
-		    <span class="navbar-text phone-text">
-		      	<ul class="nav justify-content-end">
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#"><img src="img/telephone.png" alt="" tittle=""> +38(099)-143-23-27</a>
-			      	</li>
-		    	</ul>
-		    </span>
-	  	</div>
-	</nav>
+			    </span>
+		  	</div>
+		</nav>
+	</div>
+
+	<div class="mobile-header">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  	<div class="navbar-text" id="navbarText">
+			    <div class="container navbar-text header-text">
+		    		<ul class="nav" style="float:left">
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="index.html"><strong>Главная</strong></a>
+				      	</li>
+				      	<li class="nav-item active">
+				        	<a class="nav-link" href="about-product.html">Продукция</a>
+				      	</li>
+			    	</ul>
+			    	<span class="phone-text" style="float:right">
+				      	<ul class="nav">
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="#"><img src="img/telephone.png" alt="" tittle=""> +38(099)-143-23-27</a>
+					      	</li>
+				    	</ul>
+				    </span>			    		
+			    </div>
+		  	</div>
+		</nav>
+	</div>
+<!-- Header -->
 	<div class='wrapper pr-title'>
 		<div class='redline'></div>
 		<div class='title-line'><h1>Товары</h1></div>
@@ -59,7 +90,7 @@
 		</ul>
 	</div>
 
-	<div class="container pr-con">
+	<div class="container pr-con pr-mob">
 		<div class="row pr-row">
 			<div class="col-lg-1">
 
